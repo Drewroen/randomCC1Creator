@@ -1,4 +1,4 @@
-This repo allows you to download all CC1 dat files from Gliderbot, and also create random maps based on any downloaded DAT files.
+This repo allows you to download all CC1 dat files from Gliderbot, and also create a random level set based on the downloaded DAT files.
 
 To download all GliderBot level sets:
 * ``` pip install -r requirements.txt ```
