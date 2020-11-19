@@ -46,6 +46,6 @@ for filename in os.listdir(Path('levelsets')):
     levelset_path = os.path.join(Path('levelsets'), filename)
     read_levels_from_set(levelset_path, levels_list)
 
-random_dat_bytes = create_random_dat(levels_list, 5)
+random_dat_bytes = create_random_dat(levels_list, 10)
 save_random_set(random_dat_bytes)
 
